@@ -9,7 +9,7 @@ public class A extends Item {
 
     @Override
     public Capability getCapability() {
-        return new Capability("A", 4);
+        return new Capability("A", 5);
     }
 
     @Override
