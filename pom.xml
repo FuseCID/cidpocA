@@ -8,13 +8,13 @@
     </parent>
 
     <artifactId>projA</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/FuseCID/cidpocA</connection>
         <developerConnection>scm:git:https://github.com/FuseCID/cidpocA.git</developerConnection>
         <url>http://github.com/FuseCID/cidpocA</url>
-        <tag>1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <properties>
