@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jboss.cidpoc</groupId>
         <artifactId>cidpoc-parent</artifactId>
-        <version>1.0.0.Alpha1</version>
+        <version>1.0.0.Beta1</version>
     </parent>
 
     <artifactId>projA</artifactId>
@@ -14,10 +14,19 @@
         <connection>scm:git:https://github.com/FuseCID/cidpocA</connection>
         <developerConnection>scm:git:https://github.com/FuseCID/cidpocA.git</developerConnection>
         <url>http://github.com/FuseCID/cidpocA</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
     
+    <properties>
+        <version.cidpoc>1.0.0.Beta1</version.cidpoc>
+    </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>org.jboss.cidpoc</groupId>
+            <artifactId>cidpoc-common</artifactId>
+            <version>${version.cidpoc}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
